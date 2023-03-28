@@ -15,7 +15,7 @@ Prerequisites:
 
 Steps:
 
-    Create a .gitlab-ci.yml file in the root of your project repository
-    Define the stages of your pipeline. For this example, we will use build, test, deploy.
+    Create a '.gitlab-ci.yml' file in the root of your project repository
+    Define the stages of your pipeline. For this example, we will use 'build', 'test', 'deploy'.
     Define the jobs for each stage
     Define the script for each job
