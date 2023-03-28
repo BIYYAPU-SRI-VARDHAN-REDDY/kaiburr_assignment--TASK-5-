@@ -7,15 +7,8 @@ choice. Include a code build and a docker build step in your pipeline
 # steps for the solution for task-5
 CI/CD pipeline using GitLab CI/CD for the application you created in Task #3.
 
-Prerequisites:
+the steps to create the pipeline:
 
-    A GitLab account and a GitLab project with your application code
-    Docker and Kubernetes CLI installed on the build machine
-    Access to a Kubernetes cluster
-
-Steps:
-
-    Create a '.gitlab-ci.yml' file in the root of your project repository
-    Define the stages of your pipeline. For this example, we will use 'build', 'test', 'deploy'.
-    Define the jobs for each stage
-    Define the script for each job
+    Create a Github repository for your application and push your code to it.
+    In your Github repository, create a new file named .github/workflows/main.yml. This file will contain the Github Actions workflow definition.
+    Add the following code to main.yml file to define the workflow:
