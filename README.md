@@ -13,7 +13,7 @@ Create a Github repository for your application and push your code to it.
 
 In your Github repository, create a new file named .github/workflows/main.yml. This file will contain the Github Actions workflow definition.
 
-Add the uploaded code to main.yml file to define the workflow:
+Add the uploaded code to main.yml file to define the workflow.
 
 This workflow will be triggered on every push to the main branch. It contains a single job named build-and-deploy, which runs on an Ubuntu machine. The job contains the following steps:
 
