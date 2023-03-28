@@ -9,9 +9,9 @@ CI/CD pipeline using GitLab CI/CD for the application you created in Task #3.
 
 the steps to create the pipeline:
 
-    Create a Github repository for your application and push your code to it.
-    In your Github repository, create a new file named .github/workflows/main.yml. This file will contain the Github Actions workflow definition.
-    Add the uploaded code to main.yml file to define the workflow:
+Create a Github repository for your application and push your code to it.
+In your Github repository, create a new file named .github/workflows/main.yml. This file will contain the Github Actions workflow definition.
+Add the uploaded code to main.yml file to define the workflow:
 This workflow will be triggered on every push to the main branch. It contains a single job named build-and-deploy, which runs on an Ubuntu machine. The job contains the following steps:
 
     Checkout the repository
@@ -35,10 +35,10 @@ Create a Dockerfile in the root directory of your application with the following
 
 This Dockerfile will be used to build the Docker image for your application.
 
-    Create a k8s/ directory in the root directory of your application and create Kubernetes manifests for your application in that directory. You should have at least one Deployment manifest and one Service manifest.
+Create a k8s/ directory in the root directory of your application and create Kubernetes manifests for your application in that directory. You should have at least one Deployment manifest and one Service manifest.
 
-    Create a secret named KUBE_CONFIG_DATA in your Github repository settings with the value of your Kubernetes configuration. You can generate the Kubernetes configuration using kubectl config view --flatten.
+Create a secret named KUBE_CONFIG_DATA in your Github repository settings with the value of your Kubernetes configuration. You can generate the Kubernetes configuration using kubectl config view --flatten.
 
-    Commit and push your changes to the Github repository. The CI/CD pipeline should be triggered automatically. You can monitor the progress of the pipeline in the Actions tab of your Github repository.
+Commit and push your changes to the Github repository. The CI/CD pipeline should be triggered automatically. You can monitor the progress of the pipeline in the Actions tab of your Github repository.
 
-That's it! You now have a fully automated CI/CD pipeline for your application using Github Actions.
+That's it! we now have a fully automated CI/CD pipeline for your application using Github Actions.
